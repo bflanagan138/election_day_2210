@@ -1,4 +1,5 @@
 require './lib/candidate'
+require './lib/race'
 
 RSpec.describe Candidate do
   it 'exists and has attributes' do
@@ -24,4 +25,5 @@ RSpec.describe Candidate do
     diana.vote_for!
     expect(diana.votes).to eq (4)
   end
+
 end
