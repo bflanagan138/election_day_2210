@@ -26,7 +26,7 @@ RSpec.describe Election do
     expect(election.races).to eq ([race1, race2])
   end
 
-  xit 'can add candidates' do 
+  it 'can add candidates' do 
     election = Election.new('2022')
     race1 = Race.new("Virginia District 4 Representative")
     race2 = Race.new("Texas Governor")
@@ -41,7 +41,7 @@ RSpec.describe Election do
     expect(election.candidates).to eq [candidate1, candidate2, candidate3, candidate4, candidate5]
   end
 
-  it 'can add candidate votes' do
+  xit 'can add candidate votes' do
     election = Election.new('2022')
     race1 = Race.new("Virginia District 4 Representative")
     race2 = Race.new("Texas Governor")

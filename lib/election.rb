@@ -12,7 +12,6 @@ class Election
   end
 
   def vote_counts
-    vote_counts = {}
-    
+  
   end
 end
